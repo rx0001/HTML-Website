@@ -1,0 +1,113 @@
+html,
+body {
+  margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: lightblue;
+    
+}
+p{
+    background-color: orangered;
+    border-style : solid;
+    border-color: black;
+    
+    
+}
+
+
+
+.coloumn_1 {
+    box-sizing: border-box;
+    
+    align-items: center;
+    display:block;
+    margin-left:auto;
+    
+    margin-right:auto;
+    width:50%
+    
+      
+}
+
+.coloumn_2 {
+    box-sizing: border-box;
+    
+    float: left;
+    width: 33.33%
+        height: 50%
+      
+}
+
+.coloumn_3 {
+    box-sizing: border-box;
+    
+    float: left;
+    width: 33.33%
+      
+}
+
+.coloumn_4 {
+    box-sizing: border-box;
+    
+    float: left;
+    width: 33.33%
+      
+}
+.row: after {
+    
+    content: ""
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+.early_his {
+    text-decoration: underline;
+}
+
+.dunfermline {
+    text-decoration: underline;
+}
+
+.war {
+    text-decoration: underline;
+}
+
+
+ul {
+     list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+      float: left;
+    width: 33%;
+    padding: 1px;
+}
+
+li a {
+      display: block;
+  padding: 8px;
+    color: white;
+  background-color: #009579;
+  
+}
+
+
+.history_title {
+  text-align: center;  
+  line-height: 1;
+  font-family: "Quicksand", sans-serif;
+  color: #000000;
+  font-size: 15px;
+  white-space: nowrap;
+  text-decoration: underline;
+    
